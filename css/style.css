@@ -1,13 +1,13 @@
 @font-face {
     font-family: OpenSans;
-    src: url(fonts/OpenSans-Regular.ttf);
+    src: url(../fonts/OpenSans-Regular.ttf);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: OpenSans;
-    src: url(fonts/OpenSans-Bold.ttf);
+    src: url(../fonts/OpenSans-Bold.ttf);
     font-weight: 700;
     font-style: normal;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 .banner {
-    background-image: url(./img/banner-bg.jpg);
+    background-image: url(../img/banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(0, 0, 0);
