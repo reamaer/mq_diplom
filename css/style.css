@@ -1,19 +1,25 @@
 @font-face {
-    font-family: Open Sans;
+    font-family: OpenSans;
     src: url(fonts/OpenSans-Regular.ttf);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: Open Sans;
-    src: url(fonts/OpenSans-Bold.woff);
+    font-family: OpenSans;
+    src: url(fonts/OpenSans-Bold.ttf);
     font-weight: 700;
     font-style: normal;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: OpenSans;
+}
+
 .banner {
-    background-image: url(img/banner-bg.jpg);
+    background-image: url(./img/banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(0, 0, 0);
