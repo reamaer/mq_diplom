@@ -46,3 +46,30 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.banner-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.menu-list {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.menu-list-item {
+    list-style: none;
+    padding-left: 36px;
+}
+
+.menu-list-item-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.banner-logo {
+    width: 182px;
+}
