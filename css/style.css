@@ -20,11 +20,69 @@ body {
 
 .banner {
     position: relative;
-    background-image: url(../images/banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #000000;
-    padding-bottom: 101px;
+}
+
+@media (min-width: 1200px) {
+    .banner {
+        background-image: url(../images/banner-bg.jpg);
+        padding-bottom: 101px;
+    }
+    .banner-content {
+        width: 1200px;
+    }
+    .banner-top {
+        padding-top: 30px;
+    }
+    .banner-logo {
+        width: 182px;
+    }
+    .menu-list {
+        display: flex;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+    .menu-list-item {
+        list-style: none;
+        padding-left: 36px;
+    }
+    .menu-list-item:first-child {
+        padding-left: 0px;
+    }
+    .menu-list-item-link {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .title-banner {
+        width: 687px;
+        font-size: 45px;
+        line-height: 75px;
+        padding-top: 125px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    .banner {
+        background-image: url(../images/banner-bg-tablet.jpg);
+        padding-bottom: 30px;
+    }
+    .banner-top {
+        padding-top: 43px;
+    }
+    .banner-logo {
+        width: 158px;
+    }
+    .menu-list {
+        display: none;
+    }
+    .title-banner {
+        width: 611px;
+        font-size: 40px;
+        line-height: 55px;
+        padding-top: 100px;
+    }
 }
 
 .banner:after {
@@ -43,7 +101,6 @@ body {
     z-index: 1;
     display: block;
     box-sizing: border-box;
-    width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -51,42 +108,13 @@ body {
 .banner-top {
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
     align-items: center;
-}
-
-.menu-list {
-    display: flex;
-    text-transform: uppercase;
-    font-size: 13px;
-}
-
-.menu-list-item {
-    list-style: none;
-    padding-left: 36px;
-}
-
-.menu-list-item:first-child {
-    padding-left: 0px;
-}
-
-.menu-list-item-link {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.banner-logo {
-    width: 182px;
 }
 
 .title-banner {
     text-transform: uppercase;
-    width: 687px;
     font-weight: bold;
-    font-size: 45px;
-    line-height: 75px;
     text-align: center;
     color: #ffffff;
-    padding-top: 125px;
     margin: 0 auto;
 }
