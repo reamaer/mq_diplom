@@ -145,7 +145,7 @@ body {
 
 .menu-button {
     width: 23px;
-    height: 23px;
+    height: 19px;
     border: none;
     padding: 0;
     background-color: transparent;
@@ -155,11 +155,11 @@ body {
 }
 
 .menu-button:before {
-    top: 4px;
+    top: 0;
 }
 
 .menu-button:after {
-    bottom: 8px;
+    bottom: 0;
 }
 
 .menu-button:after,
@@ -177,12 +177,12 @@ body {
 .menu-button-label {
     width: 23px;
     height: 3px;
-    margin-top: -3px;
+    margin-top: -0.1em;
     border-radius: 5px;
     background-color: #ffffff;
     position: absolute;
     left: 0;
-    top: 0;
+    top: 50%;
 }
 
 .title-banner {
@@ -191,4 +191,36 @@ body {
     text-align: center;
     color: #ffffff;
     margin: 0 auto;
+}
+
+.trend-title {
+    text-align: center;
+    margin: 60px 0 0 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29.15px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.trend-title:after {
+    content: "";
+    display: block;
+    margin: 10px auto 28px;
+    width: 66px;
+    height: 3px;
+    background-color: #b59f5b;
+}
+
+.trend-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trend-card {
+    width: 25%;
+}
+
+.trend-image {
+    width: 100%;
 }
