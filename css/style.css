@@ -83,6 +83,9 @@ body {
     .banner-logo {
         width: 158px;
     }
+    .menu-list {
+        display: none;
+    }
     .title-banner {
         width: 611px;
         font-size: 40px;
@@ -142,7 +145,7 @@ body {
 
 .menu-button {
     width: 23px;
-    height: 3px;
+    height: 23px;
     border: none;
     padding: 0;
     background-color: transparent;
@@ -156,7 +159,7 @@ body {
 }
 
 .menu-button:after {
-    bottom: 10px;
+    bottom: 8px;
 }
 
 .menu-button:after,
