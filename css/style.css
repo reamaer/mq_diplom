@@ -219,8 +219,16 @@ body {
 
 .trend-card {
     width: 25%;
+    background-color: #000000;
+    opacity: 0.6;
 }
 
 .trend-image {
     width: 100%;
+}
+
+.trend-card-content {
+    border: solid 2px #b59f5b;
+    position: relative;
+    z-index: 1;
 }
