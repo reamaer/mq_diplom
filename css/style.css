@@ -248,7 +248,7 @@ body {
     border: solid 3px #b59f5b;
     bottom: 0;
     left: 0;
-    margin: 0 20px 15px;
+    margin: 0 26px 15px;
     padding: 0 32px 36px;
     position: absolute;
     z-index: 2;
@@ -265,6 +265,7 @@ body {
 .trend-card-tag-item {
     list-style: none;
     font-weight: 700;
+    margin-right: 20px;
 }
 
 .trend-card-tag-item-link {
@@ -277,4 +278,5 @@ body {
     font-size: 20px;
     line-height: 24px;
     color: #ffffff;
+    margin: 15px 0 0;
 }
